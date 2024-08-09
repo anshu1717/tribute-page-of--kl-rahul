@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+main{
+  height: 100vh;
+  width: 100%;
+  background-color:#D1E9F6;
+}
+
+.containerOne{
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.timeLine{
+  width: 30%;
+  height: 100vh;
+  background-color: #EEEEEE;
+  font-size: 12px;
+  padding: 1%;
+}
+
+.inner{
+  width: 67%;
+  height: 100vh;
+  font-size: 12px;
+  padding: 10% 5%;
+}
+
+.containerInner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+
+}
+
+.timeline-content{
+  padding: 8%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: start;
+}
+
+.one h3{
+  padding: 1px 1px 1px 11px;
+  position: relative;
+}
+
+.one h3::before{
+  content: "";
+  height: 10px;
+  width: 10px;
+  background-color: #D1E9F6;
+  position: absolute;
+  border-radius: 10px;
+  left: -7px;
+  top: 20%;
+  border: 3px solid #8e9da8;
+}
+
+.one p{
+  padding: 2%;
+  border-left: 3px solid aliceblue;
+}
+
+.image{
+  border-radius: 0px;
+
+}
+
+
+
+.image img{
+  object-fit: cover;
+  object-position: center;
+}
+
+.bio{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0 0 0 20px;
+  color: white;
+}
+.bio h1{
+  font-size: 3rem;
+  color: black;
+}
+
+button{
+  background-color: white;
+  color: #005590;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.328);
+}
+.bio p{
+  color: black;
+  font-size: 15px;
+  font-family: serif;
+}
